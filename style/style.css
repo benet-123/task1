@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Asap+Condensed:wght@200&family=Nanum+Myeongjo&family=PT+Sans+Narrow&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Asap+Condensed:wght@200&family=Caveat&family=Edu+NSW+ACT+Foundation&family=Nanum+Myeongjo&family=PT+Sans+Narrow&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Asap+Condensed:wght@200&family=Caveat&family=Edu+NSW+ACT+Foundation&family=Nanum+Myeongjo&family=PT+Sans+Narrow&family=Poppins&family=Shadows+Into+Light&display=swap');
+
+#row1 {
+    background: url("./../assets/coffeebg.webp") center/cover no-repeat;
+    height: 424px;
+
+}
+
+h1 {
+    margin-top: 100px;
+    color: white;
+    font-family: 'Alkatra', cursive;
+    text-align: center left;
+}
+
+h2 {
+    color: white;
+    font-family: 'Alkatra', cursive;
+    text-align: left;
+
+}
+
+#logo {
+    border-radius: 107%;
+    height: 42px;
+}
+
+#row2 {
+    box-shadow: 20px 20px 65px gray;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    width: 100%;
+}
+
+#rowc {
+    font-family: 'Caveat', cursive;
+}
+
+#list {
+    background-color: #72250047;
+
+}
+
+h3 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+#list ul {
+    list-style: none;
+    margin-left: -25px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.round {
+    height: 73px;
+    width: 73px;
+    border-radius: 50%;
+  object-fit: cover;
+}
+
+.round:hover {
+    border-radius: 30%;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: olive;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: chocolate;
+    cursor: pointer;
+}
+
+
+.card img {
+    height: 144px;
+    max-width: auto;
+
+}
+
+h4 {
+    font-family: 'Caveat', cursive;
+
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    transition: all 0.7s ease-out 0s;
+}
+
+#img2 {
+    height: 322px;
+}
+
+#footers {
+    background-color: black;
+    height: 157px;
+    color: white;
+}
+@media(min-width:320px) and (max-width:768px){
+   .round{
+   width: 42px;
+   }
+}
